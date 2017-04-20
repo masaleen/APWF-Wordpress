@@ -1,0 +1,863 @@
+body {
+    font-family: 'Lato', sans-serif;
+    color: #112136;
+    padding-top: 85px;
+    font-size: 16px;
+}
+
+h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6 {
+  font-family: 'Libre Baskerville', serif;
+}
+
+.body-text-link {
+    padding-bottom: 30px;
+}
+
+.body-text-link > a{
+    text-decoration: none;
+    color: #112136;
+}
+
+.body-text-link > a:hover{
+    text-decoration: underline;
+    color: #112136;
+}
+
+.body-text-link h4 {
+    padding-top: 5px;
+}
+
+.padding-remove {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    
+.navbar-default {
+  background-color: #fff;
+}
+
+.centered-h {
+    text-align: center;
+    padding: 15px;
+}
+
+.img-right {
+    float: right;
+}  
+
+.img-padded {
+   margin: 5px;
+}
+
+legend {
+  padding-top: 10px;
+  font-size: 24px;
+  font-family: 'Libre Baskerville', serif;
+  color: #574484;
+}
+
+.popup {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.table th {
+    text-align: center;
+}
+.table > tbody > tr > th, .table > tbody > tr > td {
+    vertical-align: middle;
+    text-align: center;
+}
+
+.caption-sm {
+    margin-top: -15px;
+    font-size: 95%;
+    padding-bottom: 30px;
+}
+
+.img-donate:hover {  
+  background:
+   linear-gradient( rgba(0,0,0,.5), rgba(0,0,0,.5) ),
+   url('../images/dog-dobie-750-2.jpg') no-repeat center top;
+  position:relative;
+  width:100%;
+  background-size:100% auto;
+  text-decoration: none;
+}
+
+a.donate-btn  {
+    text-decoration: none;
+}
+
+/* NEW BUTTON STYLES */
+.btn {
+  font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.btn-primary {
+  background-color: #715ca1;
+  border-color: #645092;
+}
+.btn-primary:focus,
+.btn-primary.focus {
+  color: #fff;
+  background-color: #645092;
+  border-color: #574484;
+}
+.btn-primary:hover {
+  color: #fff;
+  background-color: #645092;
+  border-color: #574484;
+}
+.btn-primary:active,
+.btn-primary.active,
+.open > .dropdown-toggle.btn-primary {
+  color: #fff;
+  background-color: #645092;
+  border-color: #574484;
+}
+.btn-primary:active:hover,
+.btn-primary.active:hover,
+.open > .dropdown-toggle.btn-primary:hover,
+.btn-primary:active:focus,
+.btn-primary.active:focus,
+.open > .dropdown-toggle.btn-primary:focus,
+.btn-primary:active.focus,
+.btn-primary.active.focus,
+.open > .dropdown-toggle.btn-primary.focus {
+  background-color: #574484;
+  border-color: #493770;
+}
+
+/* END NEW BUTTON STYLES */
+
+
+
+
+
+
+/* ALL WIDTH 150 - 767 SIZE STYLE CHANGES */
+@media (min-width: 150px) and (max-width: 767px) {
+.navlogo {
+    width: 70%;
+    margin-top: -3PX;
+    }
+    .navbar-toggle {
+        margin: -35px 0 15px 0;
+    }
+    .navbar-collapse {
+        margin-top: 75px;
+        background-color: #715ca1;
+    }
+    
+    .navbar-collapse > ul > li:hover {
+        background-color: #7d69aa;
+    }
+    
+    .navbar-default .navbar-nav > li > a {
+        color: #fff;
+    }
+    
+    .navbar-default .navbar-nav > li > a:hover,
+    .navbar-default .navbar-nav > li > a:focus {
+        font-weight: bold;
+        color: #fff;
+        letter-spacing: 1px;
+    }
+    
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+        color: #fff;
+      }
+    
+    .navbar-default .navbar-nav > .open > a,
+    .navbar-default .navbar-nav > .open > a:hover,
+    .navbar-default .navbar-nav > .open > a:focus {
+          color: #fff;
+          background-color: #7d69aa;
+    }
+    
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+        color: #555;
+        background-color: #8b7ab2;
+    }
+
+
+.navbar-default .navbar-toggle {
+  border-color: #fff;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #fff;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #4f8391;
+}
+
+.navbar-toggle .icon-bar {
+  width: 35px;
+  height: 5px;
+  border-radius: 3px;
+}
+
+    /* DROPDOWN SUBMENU */
+
+.dropdown-submenu {
+    position:relative;
+}
+.dropdown-submenu>.dropdown-menu {
+    top:0;
+    left:100%;
+    margin-top:-6px;
+    margin-left:-1px;
+    -webkit-border-radius:0 6px 6px 6px;
+    -moz-border-radius:0 6px 6px 6px;
+    border-radius:0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+    display:block;
+}
+.dropdown-submenu>a:after {
+    display:block;
+    content:" ";
+    float:right;
+    width:0;
+    height:0;
+    border-color:transparent;
+    border-style:solid;
+    border-width:5px 0 5px 5px;
+    border-left-color:#cccccc;
+    margin-top:5px;
+    margin-right:-10px;
+}
+.dropdown-submenu:hover>a:after {
+    border-left-color:#ffffff;
+}
+.dropdown-submenu.pull-left {
+    float:none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+    left:-100%;
+    margin-left:10px;
+    -webkit-border-radius:6px 0 6px 6px;
+    -moz-border-radius:6px 0 6px 6px;
+    border-radius:6px 0 6px 6px;
+}    
+    
+    /* END DROPDOWN SUBMENU */
+    
+    
+.img-caption {  
+  background:url('../images/dog-pitbull-750-2.jpg') no-repeat center top;
+  position:relative;
+  width:100%;
+  background-size:100% auto;
+  padding: 15px 10px 30px 10px;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+h1, .h1 {
+  font-size: 30px;
+    }
+
+ /* IMAGES MENU */ 
+    
+.img-menu {
+  text-align: center;
+  width:100%;
+  padding-bottom: 335px;
+    }
+    
+.img-menu a h1 {
+  font-family: 'Lato', sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+    }
+    
+.img-menu a h1:hover {
+  color: #d7cfea;
+  text-decoration: none;
+    }
+.img-menu a {
+    text-decoration: none;
+    }
+    
+.img-menu-1 {
+  background:url('../images/dog-bulldog-750.jpg') no-repeat top;
+  position:relative;
+  background-size:100% auto;
+  padding: 40px 10px 50px 10px;
+    }   
+    
+.img-menu-2 {
+  background:url('../images/cat-brown-750.jpg') no-repeat top;
+  position:relative;
+  background-size:100% auto;
+  padding: 40px 10px 50px 10px;
+    }   
+    
+.img-menu-3 {
+  background:url('../images/vet-dog-750-sepia.jpg') no-repeat top;
+  position:relative;
+  background-size:100% auto;
+  padding: 40px 10px 50px 10px;
+    } 
+    
+.img-menu-4 {
+  background:url('../images/rabbit-gray-750.jpg') no-repeat top;
+  position:relative;
+  background-size:100% auto;
+  padding: 40px 10px 50px 10px;
+    }   
+    
+
+/* END IMAGES MENU */
+
+    
+.img-donate {  
+  background:url('../images/dog-dobie-750-2.jpg') no-repeat center top;
+  position:relative;
+  width:100%;
+  background-size:100% auto;
+  padding: 8px 10px 15px 10px;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 30px;
+}
+    
+.img-donate > h1 {
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  font-size: 42px;
+  letter-spacing: 3px;
+  line-height: 38px;
+    }
+    
+.img-donate-owner {
+  margin-top: 30px;
+    }
+    
+        
+}
+/* END ALL WIDTH 150 - 767 SIZE STYLE CHANGES */
+
+
+
+
+/* ALL MAX WIDTH 320 DESKTOP SIZE STYLE CHANGES */
+@media (max-width: 320px) {
+.navlogo {
+    width: 75%;
+    } 
+    
+.img-caption {
+    padding: 5px 10px 20px 10px;
+    }
+.img-caption > h1 {
+        font-size: 20px;
+    }
+    
+.img-caption p {
+        font-size: 11px;
+    }
+
+.img-menu {
+  padding-bottom: 285px;
+    }
+    
+.img-menu a h1 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+    }
+
+.img-menu-1, .img-menu-2, .img-menu-3, .img-menu-4 {
+    padding: 35px 10px 35px 10px;
+}
+    
+.img-donate {  
+  padding: 5px 10px 15px 10px;
+  margin-bottom: 30px;
+}
+    
+.img-donate > h1 {
+  font-size: 34px;
+  letter-spacing: 1px;
+  line-height: 30px;
+    }
+}
+/* END ALL MAX WIDTH 320 SIZE STYLE CHANGES */   
+
+
+
+
+/* ALL WIDTH 321 - 420 SIZE STYLE CHANGES */
+@media (min-width: 321px) and (max-width: 420px) {
+
+.img-caption {  
+  padding: 2px 10px 20px 10px;
+  margin-bottom: 30px;
+}
+    
+.img-caption > h1 {
+    font-size: 18px;
+    }
+    
+.img-caption p {
+    font-size: 12px;
+    }
+    
+.img-donate >h1 {
+    font-size: 36px;
+    line-height: 32px;
+    }
+    
+}
+/* END ALL WIDTH 321 - 420 SIZE STYLE CHANGES */
+
+
+
+
+/* ALL MAX WIDTH 420 SIZE STYLE CHANGES */
+@media (max-width: 420px) {
+
+    .img-full {
+        width: 100%;
+        padding-bottom: 15px;
+    }
+
+}
+
+
+
+
+/* ALL WIDTH 420 - 480 SIZE STYLE CHANGES */
+@media (min-width: 420px) and (max-width: 480px) {
+.navlogo {
+    width: 70%;
+    margin-top: -10px;
+    }   
+}
+/* END ALL WIDTH 420 - 480 SIZE STYLE CHANGES */
+
+
+
+
+/* ALL WIDTH 480 - 576 SIZE STYLE CHANGES */
+@media (min-width: 480px) and (max-width: 557px) {
+.navlogo {
+    width: 60%;
+    margin-top: -10px;
+    }   
+.img-caption > p {
+    margin-right: 40px;
+    margin-left: 40px;
+    font-size: 16px;
+    }  
+}
+/* END ALL WIDTH 480 - 557 SIZE STYLE CHANGES */
+
+
+
+
+/* ALL WIDTH 480 - 767 SIZE STYLE CHANGES */
+@media (min-width: 480px) and (max-width: 767px) {
+
+.img-menu a h1 {
+  font-size: 40px;
+    }
+.img-menu {
+  padding-bottom: 370px;
+    }
+}
+/* END ALL WIDTH 480 - 767 SIZE STYLE CHANGES */
+
+
+
+
+/* ALL WIDTH 558 - 576 SIZE STYLE CHANGES */
+@media (min-width: 558px) and (max-width: 576px) {
+.navlogo {
+    width: 60%;
+    margin-top: -10px;
+    }   
+    
+    .navbar-toggle {
+        margin: -30px 0 0 0;
+} 
+    .img-caption > p {
+    margin-right: 40px;
+    margin-left: 40px;
+    font-size: 16px;
+    }  
+}
+/* END ALL WIDTH 558 - 576 SIZE STYLE CHANGES */
+
+
+/* ALL WIDTH 577 - 767 SIZE STYLE CHANGES */
+@media (min-width: 577px) and (max-width: 767px) {
+.navlogo {
+    width: 60%;
+    margin-top: -10px;
+    }    
+
+.navbar-toggle {
+    margin: 15px 10px 15px 0;
+    }
+.img-caption {  
+  background:url('../images/dog-pitbull-750-2.jpg') no-repeat center top;
+  position:relative;
+  width:100%;
+  background-size:100% auto;
+  padding: 35px 10px 60px 10px;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 30px;
+}
+.img-caption > p {
+    margin-right: 40px;
+    margin-left: 40px;
+    font-size: 18px;
+    }   
+    
+.img-donate {  
+  padding: 25px 10px 30px 10px;
+  margin-bottom: 30px;
+}
+    
+.img-donate > h1 {
+  font-size: 60px;
+  letter-spacing: 1px;
+  line-height: 50px;
+    }    
+
+}
+/* END ALL WIDTH 577 - 767 SIZE STYLE CHANGES */
+
+
+
+
+/* ALL MIN WIDTH 768 SIZE STYLE CHANGES & START OF DESKTOP MENU*/
+@media (min-width: 768px) {
+.navlogo {
+    width: 55%;
+    margin-top: -10px;
+    }    
+    
+.navbar-default .navbar-nav>li>a {
+    color: #27548f;
+    font-weight: bold;
+    font-size: 14px;
+    padding-left: 2px;
+    }  
+.navbar-default .navbar-nav>li>a:hover {
+    color: #1b3d69;
+    } 
+.navbar-nav>li>a {
+    padding-top: 0;  
+    margin-top: -20px;
+    padding-bottom: 25px;
+    }    
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+     background-color: #fff;
+    color: #1d477e;
+    }   
+
+.dropdown-menu>.menu-item>a{
+    color: #fff;
+    font-size: 14px;
+    letter-spacing: .5px;
+    }  
+.dropdown-menu>.menu-item>a:hover{
+    color: #fff;  
+    font-weight: bold;
+    letter-spacing: 1px;
+    }
+.dropdown-menu {
+    background-color: #27548f;
+    }
+.dropdown-menu>.menu-item>a:hover{
+    background-color: #1d477e;
+    }
+.dropdown-submenu>.dropdown-menu {
+    left:100%;
+    margin-left:-115px;
+}
+    
+.img-caption {  
+  background:url('../images/dog-pitbull-1200.jpg') no-repeat center top;
+  position:relative;
+  width:100%;
+  background-size:100% auto;
+  padding: 30px 35px 55px 10px;
+  text-align: right;
+  color: #fff;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.img-caption>h1{
+  font-size: 28px;
+    }
+.img-caption>p{
+  font-size: 16px;
+  margin-left: 250px;
+    }
+
+.img-left {
+    padding-right: 15px;
+    padding-bottom: 5px;
+}    
+    
+.intro-header{
+        margin-top: 0;
+    }
+    
+/* IMAGES MENU */ 
+    
+.img-menu {
+  text-align: center;
+  width:100%;
+  padding-bottom: 220px;
+    padding-top: 0;
+    }
+    
+.img-menu a h1 {
+  font-family: 'Lato', sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+    }
+
+.img-menu-1 {
+  background:url('../images/dog-bulldog-750.jpg') no-repeat top;
+  position:relative;
+  background-size:100% auto;
+  padding: 50px 20px  70px 20px ;
+    }   
+    
+.img-menu-2 {
+  background:url('../images/cat-brown-750.jpg') no-repeat top;
+  position:relative;
+  background-size:100% auto;
+  padding: 50px 20px 70px 20px ;
+    }   
+    
+.img-menu-3 {
+  background:url('../images/vet-dog-750-sepia.jpg') no-repeat top;
+  position:relative;
+  background-size:100% auto;
+  padding: 50px 0 70px 0;
+    } 
+    
+.img-menu-4 {
+  background:url('../images/rabbit-gray-750.jpg') no-repeat top;
+  position:relative;
+  background-size:100% auto;
+  padding: 50px 0 70px 0;
+    }   
+    
+
+/* END IMAGES MENU */
+    
+.img-donate {  
+  background:url('../images/dog-dobie-750-2.jpg') no-repeat center top;
+  position:relative;
+  width:100%;
+  background-size:100% auto;
+  padding: 30px 10px 40px 10px;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 30px;
+  margin-top: 510px;
+}
+    
+.img-donate > h1 {
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  font-size: 60px;
+  letter-spacing: 3px;
+  line-height: 55px;
+    }
+    
+.img-donate-about, .img-donate-owner {  
+  margin-top: 40px;
+}
+
+}
+/* END ALL MIN WIDTH 768 SIZE STYLE CHANGES */  
+
+
+
+
+
+/* ALL MAX WIDTH 992 SIZE STYLE CHANGES */
+@media (max-width: 992px) {
+    .hidden-sm {
+        display: none;
+    }
+}
+/* END ALL MAX WIDTH 992 SIZE STYLE CHANGES */
+
+
+
+
+/* ALL MIN WIDTH 992 SIZE STYLE CHANGES */
+@media (min-width: 992px) {
+.navlogo {
+  width: 70%;
+  margin-top: -10px;
+    }    
+    
+.navbar-default .navbar-nav>li>a {
+  color: #27548f;
+  font-weight: bold;
+  font-size: 18px;
+  padding-left: 10px;
+    }    
+.navbar-nav>li>a {
+  padding-top: 35px;  
+  margin-top: 0;
+  padding-bottom: 35px;
+    }    
+.dropdown-menu>.menu-item>a{
+  font-size: 16px;
+    }
+.img-caption {  
+  background:url('../images/dog-pitbull-1200-2.jpg') no-repeat center top;
+  position:relative;
+  width:100%;
+  background-size:100% auto;
+  padding: 55px 35px 50px 10px;
+  text-align: right;
+  color: #fff;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.img-caption>h1{
+  font-size: 36px;
+    }
+.img-caption>p{
+  font-size: 20px;
+  margin-left: 500px;
+    }
+.img-caption >.btn {
+  font-size: 26px;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-top: 10px;
+}
+.body-text-link h3 {
+  font-size: 30px;     
+    }
+.body-text-link p {
+  font-size: 16px;     
+    }
+    
+.img-menu a h1 {
+  font-size: 40px;
+    }
+    
+.img-donate {  
+  padding: 40px 10px 60px 10px;
+  margin-top: 540px;
+}
+    
+.img-donate > h1 {  
+  font-size: 80px;
+  line-height: 75px;
+}
+    
+.img-donate-about, .img-donate-owner {  
+  margin-top: 40px;
+}
+
+}        
+/* END ALL MIN WIDTH 992 SIZE STYLE CHANGES */    
+
+
+
+/* ALL WIDTH 992 - 1199 SIZE STYLE CHANGES */
+@media (min-width: 992px) and (max-width: 1199px) {
+.navlogo {
+    width: 60%;
+    margin-top: -5px;
+    }    
+    
+.navbar-default .navbar-nav>li>a {
+    color: #27548f;
+    font-weight: bold;
+    font-size: 18px;
+    padding-left: 5px;
+    }    
+.navbar-nav>li>a {
+    padding-top: 0;  
+    }    
+.img-caption>p{
+  font-size: 20px;
+  margin-left: 400px;
+    }
+    
+.img-menu {
+  padding-bottom: 250px;
+    }
+    
+}
+/* END WIDTH 992 - 1199 SIZE STYLE CHANGES */   
+
+
+/* ALL MIN WIDTH 1200 SIZE STYLE CHANGES */
+@media (min-width: 1200px) {
+.body-text-link p {
+  font-size: 18px;
+    }
+.img-menu a h1 {
+  font-size: 50px;
+    }    
+.img-menu {
+  width:100%;
+  padding-bottom: 250px;
+    } 
+.img-donate {  
+  padding: 40px 10px 60px 10px;
+  margin-top: 600px;
+}
+.img-donate-about, .img-donate-owner {  
+  margin-top: 40px;
+}
+
+}
+
+/* END ALL MIN WIDTH 1200 SIZE STYLE CHANGES */
+
+
+/* FOOTER */
+
+.social-media{
+  text-align: center;
+}
+
+.social-media-icon {
+    display:inline-block;
+    padding-right:3px;
+    width: 40px;
+    height: 40px;
+    margin-bottom: 30px;
+}
+
+.copyright {
+    text-align: center;
+    color: #5E6B7B;
+    margin-bottom: 15px;
+}
+
+/* END FOOTER */

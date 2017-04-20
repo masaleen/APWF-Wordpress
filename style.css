@@ -1,0 +1,13 @@
+/*
+Theme Name: APWF - Masaleen
+Theme URI: http://masaleen.com
+Description: A custom theme designed by Masaleen Frank</a>.
+Author: Masaleen Frank
+Author URI: http://masaleen.com/
+Version: 1.0
+Tags: responsive, white, bootstrap
+*/
+
+@import url('css/bootstrap.css'); 
+@import url('css/bootstrap-responsive.css'); 
+@import url('css/style.css'); 
