@@ -27,15 +27,15 @@
 
     <div class = "navbar navbar-default navbar-fixed-top">
         <div class = "container">
-            <a href="index.html" class="navbar-brand"><img class = "navlogo" src="wp-content/uploads/2017/04/APWF_logo.jpg" alt="All Pets Wellness Foundation Logo"></a>
+            <a href="index.html" class="navbar-brand"><img class = "navlogo" src="http://v2.allpetswellnessfoundation.org/wp-content/uploads/2017/04/APWF_logo.jpg" alt="All Pets Wellness Foundation Logo"></a>
 
             <button class = "navbar-toggle" data-toggle = "collapse" data-target = ".navHeaderCollapse">
                 <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
             </button>
 
-            <div class="collapse navbar-collapse navHeaderCollapse">
+            <div class="collapse navbar-collapse navHeaderCollapse" id="main-nav">
                 <ul class = "nav navbar-nav navbar-right">
-                    <?php wp_list_pages(array('title_li' => '')); ?>
+                    <?php wp_list_pages(array('title_li' => ''));?>
                 </ul>
 </div>
             </div>

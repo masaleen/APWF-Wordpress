@@ -89,6 +89,14 @@ a.donate-btn  {
     text-decoration: none;
 }
 
+.donate-header {
+    text-align: center;
+    margin-bottom: -30px;
+    color: #27548f;
+    font-size: 2.25em;
+    padding-top: 10px;
+}
+
 /* NEW BUTTON STYLES */
 .btn {
   font-size: 20px;
@@ -134,8 +142,32 @@ a.donate-btn  {
 /* END NEW BUTTON STYLES */
 
 
+/* NAVIGATION MENU - DROPDOWN SUBMENU */
 
+#main-nav ul ul { /* this targets all sub menus */
+    display: none; /* hide all sub menus from view */
+    position: absolute;
+    top: 0; /* this should be the same height as the top level menu -- height + padding + borders */
+    margin-left: -70px;
+    list-style: none;
+    text-align: center;
+    font-weight: bold;
+    font-size: .8em;
+}
+#main-nav ul ul li { /* this targets all submenu items */
+    float: none; /* overwriting our float up above */
+    width: 200px; /* set to the width you want your sub menus to be. This needs to match the value we set below */
+}
+#main-nav ul ul li a { /* target all sub menu item links */
+    padding: 5px 10px; /* give our sub menu links a nice button feel */
+        text-decoration: none;
+}
+#main-nav ul li:hover > ul {
+    display: block; /* show sub menus when hovering over a parent */
 
+} 
+
+/* END NAVIGATION MENU - DROPDOWN SUBMENU */
 
 
 /* ALL WIDTH 150 - 767 SIZE STYLE CHANGES */
@@ -205,6 +237,7 @@ a.donate-btn  {
 }
 
     /* DROPDOWN SUBMENU */
+    
 
 .dropdown-submenu {
     position:relative;
@@ -344,7 +377,12 @@ h1, .h1 {
 .img-donate-owner {
   margin-top: 30px;
     }
-    
+.donate-header {
+    margin-bottom: -30px;
+    color: #27548f;
+    font-size: 2em;
+    padding-top: 10px;
+}    
         
 }
 /* END ALL WIDTH 150 - 767 SIZE STYLE CHANGES */
@@ -394,6 +432,12 @@ h1, .h1 {
   letter-spacing: 1px;
   line-height: 30px;
     }
+.donate-header {
+    margin-bottom: -30px;
+    color: #27548f;
+    font-size: 1.25em;
+    padding-top: 10px;
+}   
 }
 /* END ALL MAX WIDTH 320 SIZE STYLE CHANGES */   
 
@@ -820,6 +864,12 @@ h1, .h1 {
 .body-text-link p {
   font-size: 18px;
     }
+    
+#main-nav ul ul { /* this targets all sub menus */
+    top: 60px; /* this should be the same height as the top level menu -- height + padding + borders */
+    margin-left: -47px;
+    font-size: .95em;
+}
 .img-menu a h1 {
   font-size: 50px;
     }    

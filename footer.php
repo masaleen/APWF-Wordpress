@@ -1,18 +1,10 @@
-<!-- DONATE BUTTON -->
-       <a href="support.html" class="donate-btn">
-            <div class="img-donate">
-                <h1>DONATE<br>TODAY</h1>
-            </div>
-        </a>
-<!-- END DONATE BUTTON -->      
-                            
 <!-- FOOTER -->      
                
 <footer>
     
     <div class="social-media">
-        <a href="https://www.facebook.com/All-Pets-Wellness-Foundation" target="_blank"><img class="social-media-icon" src="wp-content/uploads/2017/04/facebook-icon.svg" alt="Facebook Icont"></a>
-        <a href="https://twitter.com/allpetswellness" target="_blank"><img class="social-media-icon" src="wp-content/uploads/2017/04/twitter-icon.svg" alt="Twitter Icon" ></a>
+        <a href="https://www.facebook.com/All-Pets-Wellness-Foundation" target="_blank"><img class="social-media-icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Facebook_icon_2013.svg/200px-Facebook_icon_2013.svg.png" alt="Facebook Icon"></a>
+        <a href="https://twitter.com/allpetswellness" target="_blank"><img class="social-media-icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Twitter_icon.svg/200px-Twitter_icon.svg.png" alt="Twitter Icon" ></a>
     </div>
     
     <div class="copyright">
