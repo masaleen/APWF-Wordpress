@@ -27,7 +27,7 @@
 
     <div class = "navbar navbar-default navbar-fixed-top">
         <div class = "container">
-            <a href="index.html" class="navbar-brand"><img class = "navlogo" src="http://v2.allpetswellnessfoundation.org/wp-content/uploads/2017/04/APWF_logo.jpg" alt="All Pets Wellness Foundation Logo"></a>
+            <a href="http://v2.allpetswellnessfoundation.org/" class="navbar-brand"><img class = "navlogo" src="http://v2.allpetswellnessfoundation.org/wp-content/uploads/2017/04/APWF_logo.jpg" alt="All Pets Wellness Foundation Logo"></a>
 
             <button class = "navbar-toggle" data-toggle = "collapse" data-target = ".navHeaderCollapse">
                 <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>

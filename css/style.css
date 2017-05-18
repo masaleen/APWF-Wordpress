@@ -94,7 +94,8 @@ a.donate-btn  {
     margin-bottom: -30px;
     color: #27548f;
     font-size: 2.25em;
-    padding-top: 10px;
+    padding-top: 30px;
+    clear: both;
 }
 
 /* NEW BUTTON STYLES */
@@ -143,31 +144,71 @@ a.donate-btn  {
 
 
 /* NAVIGATION MENU - DROPDOWN SUBMENU */
+#main-nav ul ul { display: none; visibility: hidden; }
+#main-nav ul ul li { display: none; visibility: hidden; }
+#main-nav ul ul li a { display: none; visibility: hidden; }
+#main-nav ul li:hover > ul { display: none; visibility: hidden; }
+/* END NAVIGATION MENU - DROPDOWN SUBMENU */
 
-#main-nav ul ul { /* this targets all sub menus */
-    display: none; /* hide all sub menus from view */
+
+/* TO DISPLAY DROPDOWN SUBMENU - TURNED OFF
+#main-nav ul ul { ---- this targets all sub menus ----
+    display: none; ---- hide all sub menus from view ----
     position: absolute;
-    top: 0; /* this should be the same height as the top level menu -- height + padding + borders */
+    top: 0; ---- this should be the same height as the top level menu -- height + padding + borders ----
     margin-left: -70px;
     list-style: none;
     text-align: center;
     font-weight: bold;
     font-size: .8em;
 }
-#main-nav ul ul li { /* this targets all submenu items */
-    float: none; /* overwriting our float up above */
-    width: 200px; /* set to the width you want your sub menus to be. This needs to match the value we set below */
+#main-nav ul ul li { ---- this targets all submenu items ----
+    float: none; ---- overwriting our float up above ----
+    width: 200px; ---- set to the width you want your sub menus to be. This needs to match the value we set below ----
 }
-#main-nav ul ul li a { /* target all sub menu item links */
-    padding: 5px 10px; /* give our sub menu links a nice button feel */
+#main-nav ul ul li a { ----target all sub menu item links ----
+    padding: 5px 10px; ---- give our sub menu links a nice button feel ----
         text-decoration: none;
 }
 #main-nav ul li:hover > ul {
-    display: block; /* show sub menus when hovering over a parent */
-
+    display: block; ---- show sub menus when hovering over a parent ----
 } 
+TO DISPLAY DROPDOWN SUBMENU - TURNED OFF */
 
-/* END NAVIGATION MENU - DROPDOWN SUBMENU */
+.form-control {
+    margin-top: -5px;
+}
+
+.form-description {
+    margin-bottom: 20px;
+}
+
+.big {
+    font-size: 140%;
+}
+
+
+.videoWrapperOuter {
+  max-width:640px; 
+  margin-left:auto;
+  margin-right:auto;
+}
+.videoWrapperInner {
+  float: none;
+  clear: both;
+  width: 100%;
+  position: relative;
+  padding-bottom: 50%;
+  padding-top: 25px;
+  height: 0;
+}
+.videoWrapperInner iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
 
 
 /* ALL WIDTH 150 - 767 SIZE STYLE CHANGES */
@@ -381,8 +422,14 @@ h1, .h1 {
     margin-bottom: -30px;
     color: #27548f;
     font-size: 2em;
-    padding-top: 10px;
+    padding-top: 30px;
+    clear: both;
 }    
+
+
+.top-links h3 {
+    font-size: 20px;
+}
         
 }
 /* END ALL WIDTH 150 - 767 SIZE STYLE CHANGES */
@@ -437,6 +484,7 @@ h1, .h1 {
     color: #27548f;
     font-size: 1.25em;
     padding-top: 10px;
+    clear: both;
 }   
 }
 /* END ALL MAX WIDTH 320 SIZE STYLE CHANGES */   
@@ -481,7 +529,7 @@ h1, .h1 {
 
 }
 
-
+/* END ALL MAX WIDTH 420 SIZE STYLE CHANGES */
 
 
 /* ALL WIDTH 420 - 480 SIZE STYLE CHANGES */
@@ -510,6 +558,25 @@ h1, .h1 {
 }
 /* END ALL WIDTH 480 - 557 SIZE STYLE CHANGES */
 
+
+
+/* ALL MAX WIDTH 558 SIZE STYLE CHANGES */
+@media (max-width: 558px) { /* !!!MAKING THE LINKS AT TOP OF ABOUT PAGE RESPONSIVE!!! */
+    .resp-line {
+        display: block;
+    }
+}
+/* END ALL MAX WIDTH 558 SIZE STYLE CHANGES */
+
+
+/* ALL MIN WIDTH 559 SIZE STYLE CHANGES */
+@media (min-width: 559px) { /* !!!END MAKING THE LINKS AT TOP OF ABOUT PAGE RESPONSIVE!!! */
+    .resp-line {
+        display: inline;
+    }
+
+}
+/* END ALL MIN WIDTH 559 SIZE STYLE CHANGES */
 
 
 
@@ -545,6 +612,15 @@ h1, .h1 {
     }  
 }
 /* END ALL WIDTH 558 - 576 SIZE STYLE CHANGES */
+
+
+/* ALL WIDTH 577 - 584 SIZE STYLE CHANGES - FIX NAV BAR*/
+@media (min-width: 577px) and (max-width: 584px) {
+.navbar-toggle {
+    padding: 19px 0 0 0; 
+    }
+}
+/* END ALL WIDTH 577 - 584 SIZE STYLE CHANGES - FIX NAV BAR */
 
 
 /* ALL WIDTH 577 - 767 SIZE STYLE CHANGES */
@@ -749,6 +825,15 @@ h1, .h1 {
     .hidden-sm {
         display: none;
     }
+    
+    body {
+        padding-top: 30px;
+    }
+    
+    .video iframe {
+        float: none;
+    }
+
 }
 /* END ALL MAX WIDTH 992 SIZE STYLE CHANGES */
 
@@ -824,6 +909,10 @@ h1, .h1 {
 .img-donate-about, .img-donate-owner {  
   margin-top: 40px;
 }
+    
+    .video-text {
+        padding: 0 125px 0 125px;
+    }
 
 }        
 /* END ALL MIN WIDTH 992 SIZE STYLE CHANGES */    
@@ -864,12 +953,6 @@ h1, .h1 {
 .body-text-link p {
   font-size: 18px;
     }
-    
-#main-nav ul ul { /* this targets all sub menus */
-    top: 60px; /* this should be the same height as the top level menu -- height + padding + borders */
-    margin-left: -47px;
-    font-size: .95em;
-}
 .img-menu a h1 {
   font-size: 50px;
     }    
@@ -884,6 +967,10 @@ h1, .h1 {
 .img-donate-about, .img-donate-owner {  
   margin-top: 40px;
 }
+    
+    .video-text {
+        padding: 0 230px 0 230px;
+    }
 
 }
 
@@ -908,6 +995,10 @@ h1, .h1 {
     text-align: center;
     color: #5E6B7B;
     margin-bottom: 15px;
+}
+
+.col-xl-6 {
+    width: 50%;
 }
 
 /* END FOOTER */

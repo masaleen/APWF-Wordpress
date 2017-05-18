@@ -1,4 +1,15 @@
-<!-- FOOTER -->      
+
+<!-- FOOTER -->  
+
+<!-- DONATE BUTTON -->
+       <h2 class="donate-header">You are the Answer. Make an Impact Now.</h2>
+            <a href="http://paypal.me/allpetswellness" target="_blank" class="donate-btn">
+                <div class="img-donate img-donate-owner">
+                    <h1>DONATE<br>TODAY</h1>
+                </div>
+            </a>
+            
+<!-- END DONATE BUTTON -->  
                
 <footer>
     
